@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="Icon" href="Photos/icon.jpg" type="jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,684;1,684&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylegallery.css">
+    <title>Gallery</title>
+</head>
+<body>
+    <nav class="toolbar">
+        <div class="logo_outer"><img class="logo" src="Photos/Logo without background.png"></div>
+        <button class="home, toolbutton" onclick="window.location.href='index.html'"><i class="fi fi-rr-home"></i> Home</button>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        
+    </nav>
+    <ul class="menu">
+        <li class="menu_item"><a href="contactform.html" class="menu_item_link">Contact Us</a></li>
+        <li class="menu_item"><a href="gallery.html" class="menu_item_link">Gallery</a></li>
+    </ul>
+    <header><h1 class="title">photo gallery</h1></header>
+    <section class="gallery">
+        <div class="photo photo_1" style="grid-area: box-1"><img class="gallery_image photo_1" src="Photos/1.jpg"></div>
+        <div class="photo photo_2" style="grid-area: box-2"><img class="gallery_image photo_2" src="Photos/2.jpg"></div>
+        <div class="photo photo_3" style="grid-area: box-3"><img class="gallery_image photo_3" src="Photos/3.jpg"></div>
+        <div class="photo photo_4" style="grid-area: box-4"><img class="gallery_image photo_4" src="Photos/4.jpg"></div>
+        <div class="photo photo_5" style="grid-area: box-5"><img class="gallery_image photo_5" src="Photos/5.jpg"></div>
+        <div class="photo photo_6" style="grid-area: box-6"><img class="gallery_image photo_6" src="Photos/6.jpg"></div>
+        <div class="photo photo_7" style="grid-area: box-7"><img class="gallery_image photo_7" src="Photos/7.jpg"></div>
+        <div class="photo photo_8" style="grid-area: box-8"><img class="gallery_image photo_8" src="Photos/8.jpg"></div>
+        <div class="photo photo_9" style="grid-area: box-9"><img class="gallery_image photo_9" src="Photos/9.jpg"></div>
+        <div class="photo photo_10" style="grid-area: box-10"><img class="gallery_image photo_10" src="Photos/10.jpg"></div>
+        <div class="photo photo_11" style="grid-area: box-11"><img class="gallery_image photo_11" src="Photos/11.jpg"></div>
+        <div class="photo photo_12" style="grid-area: box-12"><img class="gallery_image photo_12" src="Photos/12.jpg"></div>
+
+    </section>
+
+    <div id="overlay" class="overlay">
+        <button id="prev-btn" class="nav-btn">←</button>
+        <img id="enlarged-img" src="" alt="Enlarged Image" class="enlarged-image">
+        <button id="next-btn" class="nav-btn">→</button>
+    </div>
+
+    <footer class="socials">
+        <div class="social-links">
+            <a href="https://www.instagram.com/reelsbydes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com/@desmond_wong?si=I74f3wPwU1uMbTit" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@desssmondwong?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+    </footer>
+
+
+    <script src="galleryscript.js"></script>
+</body>
+</html>

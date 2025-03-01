@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="Icon" href="Photos/icon.jpg" type="jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,684;1,684&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecontact.css">
+    <title>Eternal Films</title>
+</head>
+<body>
+    <nav class="toolbar">
+        <div class="logo_outer"><img class="logo" src="Photos/Logo without background.png"></div>
+        <button class="home, toolbutton" onclick="window.location.href='index.html'"><i class="fi fi-rr-home"></i> Home</button>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        
+    </nav>
+    <ul class="menu">
+        <li class="menu_item"><a href="contactform.html" class="menu_item_link">Contact Us</a></li>
+        <li class="menu_item"><a href="gallery.html" class="menu_item_link">Gallery</a></li>
+    </ul>
+    <section class="contact_form">
+        <img src="Photos/13.jpg" class="contact_form_photo">
+        <div class="input_area">
+        <h1 class="header_title">Get In Touch With Us Now!</h1>
+        <div class="description">Have a question? Interested in booking a session with us? Please fill up this form and we will contact you soon!</div>
+        <ul class="list">
+            <li class="list_item">Events</li>
+            <li class="list_item">Personal Shoots</li>
+            <li class="list_item">More</li>
+        </ul>
+           
+        <form  class="form" action="https://api.web3forms.com/submit"  method="post">
+            <input type="hidden" name="access_key" value="c06e724f-e7d2-41aa-9a0a-7a101bf22d98">
+            <input type="text" name="name" placeholder="Name.." class="input_item name" required>
+           <input type="text" name="email"placeholder="Email.." class="input_item email" required>
+          <select name="salutation" class="select"><option>Mr.</option><option>Mrs.</option><option>Miss</option><option>Ms.</option></select>
+            <textarea name="message" class="message" placeholder="Message.." required></textarea>
+            <button type="submit" class="submit">Submit</button>
+
+           </form>
+            
+    
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+    <footer class="socials">
+        <div class="social-links">
+            <a href="https://www.instagram.com/reelsbydes?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com/@desmond_wong?si=I74f3wPwU1uMbTit" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@desssmondwong?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+    </footer>
+
+
+
+    <script src="contactform.js"></script>
+</body>
+</html>
